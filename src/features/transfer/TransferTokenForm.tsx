@@ -4,7 +4,6 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { toast } from 'react-toastify';
 
 import {
-  ProtocolSmallestUnit,
   ProtocolType,
   fromWei,
   fromWeiRounded,
@@ -414,11 +413,11 @@ function ReviewDetails({ visible, tokenRoutes }: { visible: boolean; tokenRoutes
   ) as WarpRoute;
   const isNft = tokenCaip19Id && isNonFungibleToken(tokenCaip19Id);
   const sendValueWei = isNft ? amount.toString() : toWei(amount, route?.originDecimals);
-  const originProtocol = getProtocolType(originCaip2Id);
-  const originUnitName =
-    originProtocol !== ProtocolType.Cosmos
-      ? `(${ProtocolSmallestUnit[getProtocolType(originCaip2Id)]})`
-      : '';
+  // const originProtocol = getProtocolType(originCaip2Id);
+  // const originUnitName =
+  //   originProtocol !== ProtocolType.Cosmos
+  //     ? `(${ProtocolSmallestUnit[getProtocolType(originCaip2Id)]})`
+  //     : '';
   const tokenProtocol = tryGetProtocolType(tryGetChainIdFromToken(tokenCaip19Id));
 
   // TODO refactor all this logic into something more coherent.
@@ -487,13 +486,13 @@ function ReviewDetails({ visible, tokenRoutes }: { visible: boolean; tokenRoutes
               ) : (
                 <>
                   <p className="flex">
-                    <span className="min-w-[7rem]">{`Amount ${originUnitName}`}</span>
-                    <span>{`${sendValueWei} ${originTokenSymbol}`}</span>
+                    <span className="min-w-[7rem]">{`Amount `}</span>
+                    <span>{`${fromWei(sendValueWei)} ${originTokenSymbol}`}</span>
                   </p>
                   {showIgpQuote && (
                     <p className="flex">
-                      <span className="min-w-[7rem]">{`Interchain Gas ${originUnitName}`}</span>
-                      <span>{`${igpQuote?.weiAmount || '0'} ${originGasTokenSymbol}`}</span>
+                      <span className="min-w-[7rem]">{`Protocol Fee `}</span>
+                      <span>{`${fromWei(igpQuote?.weiAmount || '0')} ${originGasTokenSymbol}`}</span>
                     </p>
                   )}
                 </>
