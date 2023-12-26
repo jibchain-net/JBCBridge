@@ -13,7 +13,7 @@ export function IgpDetailsToast({ tokenName, igpFee }: { tokenName: string; igpF
     <div>
       Cross-chain transfers require a small fee of {igpFee} {tokenName} to fund delivery transaction
       costs. Your {tokenName} balance is insufficient.{' '}
-      <a className="underline" href={links.gasDocs} target="_blank" rel="noopener noreferrer">
+      <a className="underline" href={links.docs} target="_blank" rel="noopener noreferrer">
         Learn More
       </a>
     </div>
