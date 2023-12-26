@@ -50,12 +50,7 @@ const nextConfig = {
 
   // TODO consider restricting image sources
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
-    ],
+    unoptimized: true,
   },
 
   env: {
