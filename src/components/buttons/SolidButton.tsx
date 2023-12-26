@@ -30,10 +30,10 @@ export function SolidButton(
     baseColors = 'bg-blue-500 text-white';
     onHover = 'hover:bg-blue-600';
     onActive = 'active:bg-blue-700';
-  } else if (color === 'pink') {
-    baseColors = 'bg-pink-500 text-white';
-    onHover = 'hover:bg-pink-600';
-    onActive = 'active:bg-pink-700';
+  } else if (color === 'pink') { // blue 3
+    baseColors = 'bg-blue-500 text-white';
+    onHover = 'hover:bg-blue-600';
+    onActive = 'active:bg-blue-700';
   } else if (color === 'green') {
     baseColors = 'bg-green-500 text-white';
     onHover = 'hover:bg-green-600';
