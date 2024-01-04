@@ -5,7 +5,7 @@ import { links } from '../../consts/links';
 import Github from '../../images/logos/github.svg';
 import Twitter from '../../images/logos/twitter.svg';
 
-import Logo from '../../images/logos/jbc.png';
+import Logo from '../../images/logos/jbc-2.png';
 
 export function Footer() {
   return (
