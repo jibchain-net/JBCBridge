@@ -13,7 +13,7 @@ export const tokenList: WarpTokenConfig = [
     symbol: 'JBC',
     decimals: 18,
     hypNativeAddress: '0x6b4976946C197F5a6253Ff2C086A10BC6EdFd3c4',
-    logoURI: '/jbc.png',
+    logoURI: '/jbc-2.png',
   },
   { // 2.bkc > jbc- = native
     type: 'native',
