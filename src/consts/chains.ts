@@ -30,7 +30,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
       reorgPeriod: 2,
       estimateBlockTime: 3,
     },
-    logoURI: '/jbc.png',
+    logoURI: '/jbc-2.png',
     interchainGasPaymaster: '0x29A7b29ADeb30f0E08649F24bc087Fb586AE7C62',
     mailbox: '0x9cee5Fa6182e1Ea883903051fb014f080098B10b',
     validatorAnnounce: '0x46d5261a0a0F184cC283712105bE53064F5f565f',
