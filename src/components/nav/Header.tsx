@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { WalletControlBar } from '../../features/wallet/WalletControlBar';
-import Title from '../../images/logos/jbc-bridge.png';
+import Title from '../../images/logos/jbc-bridge-2.png';
 
 export function Header() {
   return (
