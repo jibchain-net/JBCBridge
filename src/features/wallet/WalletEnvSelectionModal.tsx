@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import { PropsWithChildren } from 'react';
 
 import { chainMetadata } from '@hyperlane-xyz/sdk';
@@ -19,7 +19,7 @@ export function WalletEnvSelectionModal({ isOpen, close }: { isOpen: boolean; cl
   };
 
   return (
-    <Modal title="Select Wallet Environment" isOpen={isOpen} close={close} width="max-w-sm">
+    <Modal title="Select Wallet" isOpen={isOpen} close={close} width="max-w-sm">
       <div className="pt-4 pb-2 flex flex-col space-y-2.5">
         <EnvButton
           onClick={onClickEnv(ProtocolType.Ethereum)}
@@ -28,7 +28,7 @@ export function WalletEnvSelectionModal({ isOpen, close }: { isOpen: boolean; cl
         >
           Ethereum
         </EnvButton>
-        <EnvButton
+        {/* <EnvButton
           onClick={onClickEnv(ProtocolType.Sealevel)}
           subTitle="a Solana"
           logoChainId={chainMetadata.solanadevnet.chainId}
@@ -41,7 +41,7 @@ export function WalletEnvSelectionModal({ isOpen, close }: { isOpen: boolean; cl
           logo={<Image src={'/logos/cosmos.svg'} width={34} height={34} alt="" />}
         >
           Cosmos
-        </EnvButton>
+        </EnvButton> */}
       </div>
     </Modal>
   );
