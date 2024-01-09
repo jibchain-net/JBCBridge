@@ -24,6 +24,16 @@ export const tokenList: WarpTokenConfig = [
     hypNativeAddress: '0xd63cD9ab38AeFDa71C87f09E5d78cbd135c442B0',
     logoURI: '/bkc.png',
   },
+  { // bkc > jbc- = CMM (ERC-20)
+    type: 'collateral',
+    chainId: 96,
+    address: '0x9B005000A10Ac871947D99001345b01C1cEf2790',
+    hypCollateralAddress: '0x50040B2f285811e1eeEC1C016D6048d43E963058',
+    name: 'Commu Token',
+    symbol: 'CMM',
+    decimals: 18,
+    logoURI: '/cmm.png',
+  },
   { // 3.bsc > jbc- = native
     type: 'native',
     chainId: 56,
