@@ -24,16 +24,16 @@ export default function Document() {
         />
 
         <meta name="HandheldFriendly" content="true" />
-        <meta name="apple-mobile-web-app-title" content="Cross-Chain Token Bridge for JIBChain" />
+        <meta name="apple-mobile-web-app-title" content="JBCBridge : Cross-chain Tokens bridge for JIBChain" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <meta property="og:url" content="http://bridge.jbcha.in/" />
-        <meta property="og:title" content="Cross-Chain Token Bridge for JIBChain" />
+        <meta property="og:url" content="https://bridge.jbcha.in" />
+        <meta property="og:title" content="JBCBridge : Cross-chain Tokens bridge for JIBChain" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="http://bridge.jbcha.in/" />
+        <meta property="og:image" content="https://bridge.jbcha.in/logo.png" /> 
         <meta
           property="og:description"
-          content="Cross-Chain Token Bridge for JIBChain"
+          content="Warp Routes make it safe and easy to bridge your tokens to and from JIBChain!"
         />
       </Head>
       <body className="text-black">
