@@ -145,4 +145,58 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     validatorAnnounce: '0xFCaC1cdbaF7a4f3358dF05AbfeEa17B11d8bC8D3'
   },
 
+  arbitrum: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 42161,
+    domainId: 42161,
+    name: 'arbitrum',
+    displayName: 'Arbitrum One',
+    nativeToken: { name: 'ETH', symbol: 'ETH', decimals: 18 },
+    rpcUrls: [{ http: 'https://arbitrum-one.publicnode.com' }],
+    blockExplorers: [
+      {
+        name: 'arbitrum',
+        url: 'https://arbiscan.io',
+        apiUrl: 'https://arbiscan.io/api',
+        family: ExplorerFamily.Etherscan,
+      },
+    ],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 2,
+      estimateBlockTime: 3,
+    },
+    logoURI: '/arb.png',
+    interchainGasPaymaster: '0x7C15f286Ad207620B2EA4163bdd4c30963e062bd',
+    mailbox: '0xE2deBB689ff79252d1f616186C79482B232f2b64',
+    validatorAnnounce: '0x4D921054A0DF5adf36AD126F4aA3824F0C935AEa'
+  },
+
+  meta: {
+    protocol: ProtocolType.Ethereum,
+    chainId: 17,
+    domainId: 17,
+    name: 'meta',
+    displayName: 'Meta Chain',
+    nativeToken: { name: 'META', symbol: 'META', decimals: 18 },
+    rpcUrls: [{ http: 'https://rpc.metachain.asia' }],
+    blockExplorers: [
+      {
+        name: 'meta',
+        url: 'https://exp.metachain.asia',
+        apiUrl: 'https://exp.metachain.asia/api',
+        family: ExplorerFamily.Etherscan,
+      },
+    ],
+    blocks: {
+      confirmations: 1,
+      reorgPeriod: 2,
+      estimateBlockTime: 3,
+    },
+    logoURI: '/meta.png',
+    interchainGasPaymaster: '0x0dA8bc809168D6Fd0F343cbc26386b63D5eeE2Db',
+    mailbox: '0x32310DCb6931cF0cB098a13D898643b12DAdD730',
+    validatorAnnounce: '0x830e6fD884775933fcF7932dEfcBF28AE76e57DC'
+  },
+
 };
