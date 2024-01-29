@@ -16,19 +16,19 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="keywords"
-          content="Cross-Chain Token Bridge"
+          content="JBCBridge JBC JIB JIBChain Cross-Chain Token Bridge EVM ETH BTC Web3"
         />
         <meta
           name="description"
-          content="Cross-Chain Token Bridge for JIBChain"
+          content="JBCBridge | Cross-chain Tokens bridge for JIBChain"
         />
 
         <meta name="HandheldFriendly" content="true" />
-        <meta name="apple-mobile-web-app-title" content="JBCBridge : Cross-chain Tokens bridge for JIBChain" />
+        <meta name="apple-mobile-web-app-title" content="JBCBridge | Cross-chain Tokens bridge for JIBChain" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <meta property="og:url" content="https://bridge.jbcha.in" />
-        <meta property="og:title" content="JBCBridge : Cross-chain Tokens bridge for JIBChain" />
+        <meta property="og:title" content="JBCBridge | Cross-chain Tokens bridge for JIBChain" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://bridge.jbcha.in/logo.png" /> 
         <meta
