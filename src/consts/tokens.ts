@@ -163,6 +163,16 @@ export const tokenList: WarpTokenConfig = [
     decimals: 18,
     logoURI: '/erc20.png',
   },
+  { // 9.bkc > jbc = tao (erc-20)
+    type: 'collateral',
+    chainId: 96,
+    address: '0x6527d3D38a7Ff4E62f98fE27dd9242a36227FE23',
+    hypCollateralAddress: '0x4c09981C0bf19a9b6d4419003557f1cA84e0d265',
+    name: 'Tao Meme',
+    symbol: 'TAO',
+    decimals: 18,
+    logoURI: '/tao.png',
+  },
 
 
   // Example NFT (ERC721) token for an EVM chain
