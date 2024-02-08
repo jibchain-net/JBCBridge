@@ -173,6 +173,16 @@ export const tokenList: WarpTokenConfig = [
     decimals: 18,
     logoURI: '/tao.png',
   },
+  { // 10.bkc > jbc = jak (erc-20)
+    type: 'collateral',
+    chainId: 96,
+    address: '0xcD7A79946eaef6Bb308E21f9E947D94f073F58Be',
+    hypCollateralAddress: '0xa613B59F4acD33455434059ca79a3b320968b24a',
+    name: 'JAK Coin',
+    symbol: 'JAK',
+    decimals: 18,
+    logoURI: '/jak.jpg',
+  },
 
 
   // Example NFT (ERC721) token for an EVM chain
