@@ -1,5 +1,5 @@
 export const links = {
-  home: 'https://linktr.ee/JIBCHAIN',
+  home: 'https://linktr.ee/jibchain_official',
   explorer: 'https://exp-l1.jibchain.net',
   discord: 'https://xxx',
   github: 'https://github.com/jibchain-net',
