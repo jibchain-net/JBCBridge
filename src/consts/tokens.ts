@@ -183,6 +183,16 @@ export const tokenList: WarpTokenConfig = [
     decimals: 18,
     logoURI: '/jak.jpg',
   },
+  { // 11.bkc > jbc = meta (erc-20)
+    type: 'collateral',
+    chainId: 96,
+    address: '0xb2D5a5AEC0C7f2Cac33DcdF6D7B47Ab6Dd403246',
+    hypCollateralAddress: '0xC5FB0704351c070ec1C83937ec51E0641E0f9Ea3',
+    name: 'META Token',
+    symbol: 'META',
+    decimals: 18,
+    logoURI: '/meta.png',
+  },
 
 
   // Example NFT (ERC721) token for an EVM chain
