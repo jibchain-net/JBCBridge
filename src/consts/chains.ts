@@ -16,7 +16,13 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     name: 'jbc',
     displayName: 'JIB Chain',
     nativeToken: { name: 'JBC', symbol: 'JBC', decimals: 18 },
-    rpcUrls: [{ http: 'https://jib-rpc.inan.in.th' }],
+    rpcUrls: [
+      { http: 'https://rpc-l1.jibchain.net' },
+      { http: 'https://jib-rpc.inan.in.th' },
+      { http: 'https://rpc-l1.jbc.aomwara.in.th' },
+      { http: 'https://rpc-l1.jbc.xpool.pw' },
+      { http: 'https://rpc-l2.jbc.xpool.pw' },
+    ],
     blockExplorers: [
       {
         name: 'jbc',
@@ -98,7 +104,11 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     name: 'bsc',
     displayName: 'Binance Smart Chain',
     nativeToken: { name: 'BNB', symbol: 'BNB', decimals: 18 },
-    rpcUrls: [{ http: 'https://bsc-dataseed1.ninicoin.io' }],
+    rpcUrls: [
+      { http: 'https://binance.nodereal.io' },
+      { http: 'https://bsc-dataseed1.ninicoin.io' },
+      { http: 'https://bsc-dataseed.bnbchain.org' },
+    ],
     blockExplorers: [
       {
         name: 'bsc',
@@ -125,7 +135,11 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     name: 'optimism',
     displayName: 'Optimistic',
     nativeToken: { name: 'ETH', symbol: 'ETH', decimals: 18 },
-    rpcUrls: [{ http: 'https://mainnet.optimism.io' }],
+    rpcUrls: [
+      { http: 'https://mainnet.optimism.io' },
+      { http: 'https://optimism.llamarpc.com' },
+      { http: 'https://optimism-rpc.publicnode.com' },
+    ],
     blockExplorers: [
       {
         name: 'optimism',
@@ -152,7 +166,11 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     name: 'arbitrum',
     displayName: 'Arbitrum One',
     nativeToken: { name: 'ETH', symbol: 'ETH', decimals: 18 },
-    rpcUrls: [{ http: 'https://arbitrum-one.publicnode.com' }],
+    rpcUrls: [
+      { http: 'https://arbitrum-one.publicnode.com' },
+      { http: 'https://arbitrum.llamarpc.com' },
+      { http: 'https://1rpc.io/arb' },
+    ],
     blockExplorers: [
       {
         name: 'arbitrum',
