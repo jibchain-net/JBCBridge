@@ -21,7 +21,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
       { http: 'https://jib-rpc.inan.in.th' },
       { http: 'https://rpc-l1.jbc.aomwara.in.th' },
       { http: 'https://rpc-l1.jbc.xpool.pw' },
-      { http: 'https://rpc-l2.jbc.xpool.pw' },
+      { http: 'https://rpc2-l1.jbc.xpool.pw' },
     ],
     blockExplorers: [
       {
