@@ -221,7 +221,7 @@ export const tokenList: WarpTokenConfig = [
     name: 'Bunny Coin',
     symbol: 'BC',
     decimals: 18,
-    logoURI: '/bb.png',
+    logoURI: '/bc.png',
   },
 
 
