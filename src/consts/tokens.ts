@@ -193,6 +193,36 @@ export const tokenList: WarpTokenConfig = [
     decimals: 18,
     logoURI: '/meta.png',
   },
+  { // 12.jbc > op = CMM (erc-20)
+    type: 'collateral',
+    chainId: 8899,
+    address: '0x627C4EBf2fE5b93b10C2bf594719ebE04452Fd5B',
+    hypCollateralAddress: '0xABae213641f0825EaDd83FF5892F45881bB013fb',
+    name: 'Commu Token',
+    symbol: 'CMM',
+    decimals: 18,
+    logoURI: '/cmm.png',
+  },
+  { // 13.jbc > op = meta (erc-20)
+    type: 'collateral',
+    chainId: 8899,
+    address: '0x8fcC6e3a23a0255057bfD9A97799b3a995Bf3D24',
+    hypCollateralAddress: '0xF387258dc382512161206de5CA7E655f8b677Db0',
+    name: 'BunnyToken',
+    symbol: 'BB',
+    decimals: 18,
+    logoURI: '/bb.png',
+  },
+  { // 14.jbc > op = meta (erc-20)
+    type: 'collateral',
+    chainId: 8899,
+    address: '0x7EB6dd3969C7AaA5E37C1cD4e83E610B04297F6C',
+    hypCollateralAddress: '0x6888Eb3e872c78c3b1e3d870677f4C352B433a0a',
+    name: 'Bunny Coin',
+    symbol: 'BC',
+    decimals: 18,
+    logoURI: '/bb.png',
+  },
 
 
   // Example NFT (ERC721) token for an EVM chain
