@@ -3089,6 +3089,8 @@ __metadata:
     autoprefixer: "npm:^10.4.14"
     bignumber.js: "npm:^9.1.1"
     buffer: "npm:^6.0.3"
+    class-variance-authority: "npm:^0.7.1"
+    clsx: "npm:^2.1.1"
     cosmjs-types: "npm:^0.9.0"
     eslint: "npm:^8.41.0"
     eslint-config-next: "npm:^13.4.3"
@@ -3097,13 +3099,16 @@ __metadata:
     framer-motion: "npm:^10.16.4"
     jest: "npm:^29.6.3"
     jest-transform-yaml: "npm:^1.1.2"
+    lucide-react: "npm:^0.474.0"
     next: "npm:^13.2.4"
     postcss: "npm:^8.4.23"
     prettier: "npm:^2.8.8"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-toastify: "npm:^9.1.3"
+    tailwind-merge: "npm:^2.6.0"
     tailwindcss: "npm:^3.3.2"
+    tailwindcss-animate: "npm:^1.0.7"
     ts-node: "npm:^10.9.1"
     typescript: "npm:^5.3.3"
     viem: "npm:1.20.0"
@@ -8346,6 +8351,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-variance-authority@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "class-variance-authority@npm:0.7.1"
+  dependencies:
+    clsx: "npm:^2.1.1"
+  checksum: 27a1face3f5ee88caa7813743461977aef5110830dc8e8960e7c9570598b37ffb8b2760b4e5d738dc827b0eb9058ddd204e9002e9af0ef39b6851f6ea9aa82c1
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -8415,6 +8429,13 @@ __metadata:
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 5ded6f61f15f1fa0350e691ccec43a28b12fb8e64c8e94715f2a937bc3722d4c3ed41d6e945c971fc4dcc2a7213a43323beaf2e1c28654af63ba70c9968a8643
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "clsx@npm:2.1.1"
+  checksum: cdfb57fa6c7649bbff98d9028c2f0de2f91c86f551179541cf784b1cfdc1562dcb951955f46d54d930a3879931a980e32a46b598acaea274728dbe068deca919
   languageName: node
   linkType: hard
 
@@ -12042,6 +12063,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^0.474.0":
+  version: 0.474.0
+  resolution: "lucide-react@npm:0.474.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 66370cb601cda7f5df78ed11d14b20b7f2dfac128a88a098f6e70ff98e4e8abc63d4ad7b3dc9ecf9814c5578c9d224fc158127d3ee4df770016cc356464011ec
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^4.0.0":
   version: 4.0.0
   resolution: "make-dir@npm:4.0.0"
@@ -14635,6 +14665,22 @@ __metadata:
   version: 6.2.0
   resolution: "tabbable@npm:6.2.0"
   checksum: 980fa73476026e99dcacfc0d6e000d41d42c8e670faf4682496d30c625495e412c4369694f2a15cf1e5252d22de3c396f2b62edbe8d60b5dadc40d09e3f2dde3
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "tailwind-merge@npm:2.6.0"
+  checksum: a84f49d6f2cfb18ba06dc51b446b69f6b42cedcb9c9fa4e7c5f931b56e739870e513339e02b348b43f44011fa4852f02f72658a3f3e066e5101b09fc28644210
+  languageName: node
+  linkType: hard
+
+"tailwindcss-animate@npm:^1.0.7":
+  version: 1.0.7
+  resolution: "tailwindcss-animate@npm:1.0.7"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: ef176fbb0bf9dca84178b35b6a9615cd756358ea80be9c575456d12ecd7f3c431e9e571915c7df72959dc798a730959e9a4739d59eab55d8cc6db390870ff0d2
   languageName: node
   linkType: hard
 

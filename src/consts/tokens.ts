@@ -121,7 +121,7 @@ export const tokenList: WarpTokenConfig = [
     name: 'Commu Token',
     symbol: 'CMM',
     decimals: 18,
-    logoURI: '/cmm.png',
+    logoURI: '/cm.png',
   },
   { // 5.bsc > jbc- = BTCB (ERC-20)
     type: 'collateral',
@@ -201,7 +201,7 @@ export const tokenList: WarpTokenConfig = [
     name: 'Commu Token',
     symbol: 'CMM',
     decimals: 18,
-    logoURI: '/cmm.png',
+    logoURI: '/cm.png',
   },
   { // 13.jbc > op = meta (erc-20)
     type: 'collateral',

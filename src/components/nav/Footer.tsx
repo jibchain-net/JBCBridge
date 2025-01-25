@@ -35,6 +35,7 @@ export function Footer() {
             <br />
           </div>
         </div>
+        © 2024 - {new Date().getFullYear()}
       </div>
     </footer>
   );
