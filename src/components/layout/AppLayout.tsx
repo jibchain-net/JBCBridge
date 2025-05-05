@@ -9,11 +9,10 @@ export function AppLayout({ children }: PropsWithChildren) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JBCBridge | Cross-Chain Token Bridge for JIBChain</title>
+        <title>JB Bridge | Cross-Chain Token Bridge for JB Chain</title>
       </Head>
       <div
-        style={styles.container}
-        id="app-content"
+        style={styles.container}        id="app-content"
         className="relative flex flex-col justify-between h-full min-h-screen w-full min-w-screen bg-gray-50"
       >
         <div className="hidden md:flex absolute left-[8%] top-[15%]">

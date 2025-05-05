@@ -13,7 +13,7 @@ export const tokenList: WarpTokenConfig = [
     symbol: 'JBC',
     decimals: 18,
     hypNativeAddress: '0x6b4976946C197F5a6253Ff2C086A10BC6EdFd3c4',
-    logoURI: '/jbc-2.png',
+    logoURI: '/jb-chain.png',
   },
   { // 2.bkc > jbc- = native
     type: 'native',
@@ -59,7 +59,7 @@ export const tokenList: WarpTokenConfig = [
     symbol: 'JBC',
     decimals: 18,
     hypNativeAddress: '0xE23Be4D1a1CDA5454e0e82099A75B13AF53cb673',
-    logoURI: '/jbc-2.png',
+    logoURI: '/jb-chain.png',
   },
   { // 7. arb > jbc = native (eth)
     type: 'native',
@@ -77,7 +77,7 @@ export const tokenList: WarpTokenConfig = [
     symbol: 'JBC',
     decimals: 18,
     hypNativeAddress: '0xc5b66604d72dA3cE864a826aaFc23b988528e8bF',
-    logoURI: '/jbc-2.png',
+    logoURI: '/jb-chain.png',
   },
 
 

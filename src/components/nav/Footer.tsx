@@ -5,7 +5,7 @@ import { links } from '../../consts/links';
 import Github from '../../images/logos/github.svg';
 import Twitter from '../../images/logos/twitter.svg';
 
-import Logo from '../../images/logos/jbc-2.png';
+import Logo from '../../images/logos/jb-chain.png';
 
 export function Footer() {
   return (
@@ -15,11 +15,11 @@ export function Footer() {
           <div className="flex">
             <Image src={Logo} width={45} height={45} alt="" />
           </div>
-          <div className="hidden sm:flex flex-col ml-3">
+          <div className="hidden sm:flex flex-col ml-3 text-center">
             <p className="text-sm font-light leading-5">
-              <span className="text-base font-medium">JBCBridge</span> is powered
+              <span className="text-base font-medium">JB Bridge </span> 
               <br />
-              by Hyperlane Warp Routes.
+              is powered by Hyperlane protocol.
             </p>
           </div>
         </div>

@@ -13,10 +13,10 @@ export function TipCard() {
   if (!show) return null;
   return (
     <Card className="w-100 sm:w-[31rem]">
-      <h2 className="text-blue-500 sm:text-lg">Bridge Your Tokens with JBCBridge!</h2>
+      <h2 className="text-blue-500 sm:text-lg">Bridge Your Tokens with JB Bridge!</h2>
       <div className="flex items-end justify-between">
         <p className="mt-1 text-xs sm:text-sm max-w-[70%]">
-          Warp Routes make it safe and easy to bridge your tokens to and from JIBChain!
+          Warp Routes make it safe and easy to bridge your tokens to and from JB Chain!
         </p>
         <a
           href={links.swap}

@@ -9,12 +9,12 @@ import { ProtocolType } from '@hyperlane-xyz/utils';
 // , protocolFee?: Address
 export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGasPaymaster?: Address, validatorAnnounce?: Address }> = {
 
-  jbc: {
+  jb: {
     protocol: ProtocolType.Ethereum,
     chainId: 8899,
     domainId: 8899,
-    name: 'jbc',
-    displayName: 'JIB Chain',
+    name: 'jb',
+    displayName: 'JB Chain',
     nativeToken: { name: 'JBC', symbol: 'JBC', decimals: 18 },
     rpcUrls: [
       { http: 'https://rpc-l1.jibchain.net' },
@@ -25,7 +25,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
     ],
     blockExplorers: [
       {
-        name: 'jbc',
+        name: 'jb',
         url: 'https://exp-l1.jibchain.net',
         apiUrl: 'https://exp-l1.jibchain.net/api',
         family: ExplorerFamily.Blockscout,
@@ -36,7 +36,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
       reorgPeriod: 2,
       estimateBlockTime: 3,
     },
-    logoURI: '/jbc-2.png',
+    logoURI: '/jb-chain.png',
     interchainGasPaymaster: '0x29A7b29ADeb30f0E08649F24bc087Fb586AE7C62',
     mailbox: '0x9cee5Fa6182e1Ea883903051fb014f080098B10b',
     validatorAnnounce: '0x46d5261a0a0F184cC283712105bE53064F5f565f',
@@ -91,7 +91,7 @@ export const chains: ChainMap<ChainMetadata & { mailbox?: Address, interchainGas
       reorgPeriod: 2,
       estimateBlockTime: 3,
     },
-    logoURI: '/bkc.png',
+    logoURI: '/bkc-new.png',
     interchainGasPaymaster: '0x1c2e0e9D6a0d3B7aB4CE3013219e6fB921E9e4a1',
     mailbox: '0xCc7997A71df915b447a985dfCE05C4BB938caA31',
     validatorAnnounce: '0x56122b44789d0824F07a6A6C451C23C9bd33af43'
