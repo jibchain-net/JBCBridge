@@ -4,10 +4,10 @@ export enum Color {
   primaryWhite = '#FFFFFF',
   primaryGray = '#6B7280',
   lightGray = '#D0D4DB',
-  primaryBlue = '#025AA1',
+  primaryBlue = '#BF1B15', //
   primaryPink = '#D631B9',
   primaryBeige = '#F1EDE9',
-  primaryRed = '#BF1B15',
+  primaryRed = '#BF1B16',
   primaryMint = '#31D99C',
 }
 

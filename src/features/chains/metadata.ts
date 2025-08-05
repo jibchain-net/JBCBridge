@@ -7,8 +7,7 @@ import {
   ChainMetadata,
   ChainMetadataSchema,
   ChainName,
-  chainMetadata,
-  chainMetadataToWagmiChain,
+  chainMetadataToWagmiChain
 } from '@hyperlane-xyz/sdk';
 import { ProtocolType } from '@hyperlane-xyz/utils';
 
@@ -39,7 +38,7 @@ export function getChainConfigs() {
       throw new Error(`Invalid chain config: ${result.error.toString()}`);
     }
     const customChainConfigs = result.data as ChainMap<ChainMetadata & { mailbox?: Address }>;
-    chainConfigs = { ...chainMetadata, ...customChainConfigs };
+    chainConfigs = { ...customChainConfigs };
   }
   return chainConfigs;
 }

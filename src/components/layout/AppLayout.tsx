@@ -9,7 +9,7 @@ export function AppLayout({ children }: PropsWithChildren) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>JBCBridge | Cross-Chain Token Bridge for JIBChain</title>
+        <title>Jfin Bridge | Cross-Chain Token Bridge for JFIN</title>
       </Head>
       <div
         style={styles.container}
@@ -32,7 +32,7 @@ export function AppLayout({ children }: PropsWithChildren) {
 
 const styles = {
   container: {
-    backgroundImage: 'url(/backgrounds/lines-bg-top.svg)',
+    backgroundImage: 'url(/backgrounds/background-texture.png)',
     backgroundSize: '94vw',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center 80px',

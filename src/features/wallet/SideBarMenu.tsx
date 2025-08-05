@@ -12,7 +12,6 @@ import ArrowRightIcon from '../../images/icons/arrow-right.svg';
 import CollapseIcon from '../../images/icons/collapse-icon.svg';
 import Logout from '../../images/icons/logout.svg';
 import ResetIcon from '../../images/icons/reset-icon.svg';
-import Wallet from '../../images/icons/wallet.svg';
 import { tryClipboardSet } from '../../utils/clipboard';
 import { STATUSES_WITH_ICON, getIconByTransferStatus } from '../../utils/transfer';
 import { getAssetNamespace } from '../caip/tokens';
@@ -25,7 +24,7 @@ import { TransferContext } from '../transfer/types';
 import { useAccounts, useDisconnectFns } from './hooks/multiProtocol';
 
 export function SideBarMenu({
-  onConnectWallet,
+  // onConnectWallet,
   isOpen,
   onClose,
 }: {
@@ -120,10 +119,10 @@ export function SideBarMenu({
                 );
               }),
             )}
-            <button onClick={onConnectWallet} className={styles.btn}>
+            {/* <button onClick={onConnectWallet} className={styles.btn}>
               <Icon src={Wallet} alt="" size={18} />
               <div className="ml-2">Connect wallet</div>
-            </button>
+            </button> */}
             <button onClick={onClickDisconnect} className={styles.btn}>
               <Icon src={Logout} alt="" size={20} />
               <div className="ml-2">Disconnect all wallets</div>

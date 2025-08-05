@@ -82,6 +82,8 @@ async function parseTokenConfigs(configList: WarpTokenConfig): Promise<TokenMeta
       isNft,
     );
 
+    
+
     tokenMetadata.push({
       name,
       symbol,

@@ -1,10 +1,7 @@
-import Image from 'next/image';
 import { useState } from 'react';
 
 import { IconButton } from '../../components/buttons/IconButton';
 import { config } from '../../consts/config';
-import { links } from '../../consts/links';
-import InfoCircle from '../../images/icons/info-circle.svg';
 import XCircle from '../../images/icons/x-circle.svg';
 import { Card } from '../layout/Card';
 
@@ -13,12 +10,12 @@ export function TipCard() {
   if (!show) return null;
   return (
     <Card className="w-100 sm:w-[31rem]">
-      <h2 className="text-blue-500 sm:text-lg">Bridge Your Tokens with JBCBridge!</h2>
+      <h2 className="text-blue-500 sm:text-lg">Bridge Your Tokens with Jfin Bridge!</h2>
       <div className="flex items-end justify-between">
         <p className="mt-1 text-xs sm:text-sm max-w-[70%]">
-          Warp Routes make it safe and easy to bridge your tokens to and from JIBChain!
+          Warp Routes make it safe and easy to bridge your tokens to and from <b>JFIN!</b>
         </p>
-        <a
+        {/* <a
           href={links.swap}
           target="_blank"
           rel="noopener noreferrer"
@@ -26,7 +23,7 @@ export function TipCard() {
         >
           <Image src={InfoCircle} width={16} alt="" />
           <span className="ml-1.5">Swap Tokens</span>
-        </a>
+        </a> */}
       </div>
       <div className="absolute right-3 top-3">
         <IconButton
